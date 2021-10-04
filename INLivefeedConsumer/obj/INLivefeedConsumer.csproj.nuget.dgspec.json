@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\projects\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {}
+    "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\projects\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {
+    "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\projects\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
+        "projectUniqueName": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
         "projectName": "INLivefeedConsumer",
-        "projectPath": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\projects\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
+        "projectPath": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
         "packagesPath": "C:\\Users\\kriachy\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\projects\\INLivefeedConsumer\\INLivefeedConsumer\\obj\\",
+        "outputPath": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\kriachy\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.0"
@@ -30,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.0": {
+            "targetAlias": "netcoreapp3.0",
             "projectReferences": {}
           }
         },
@@ -41,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "targetAlias": "netcoreapp3.0",
           "dependencies": {
             "Confluent.Kafka": {
               "target": "Package",
@@ -61,6 +59,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.3, 3.0.3]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -69,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
