@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9AcmpC/rLqLUIsxV0Lcrw4HJn2/djSX4A9b+279ovYLBiUNSFK8TWIStS4Cv4wnknA1ZPb2l8KCv47uoxowhnA==",
+  "dgSpecHash": "kQgtnmyJMPOgTZPYohjt1lUzqr8mWy+u5/vlxNkeJOQ7r/w19Q78YQGOmshGIjLIWuXC6G5SbYzYxrN6kLIN0g==",
   "success": true,
-  "projectFilePath": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
+  "projectFilePath": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\kriachy\\.nuget\\packages\\confluent.kafka\\1.5.0\\confluent.kafka.1.5.0.nupkg.sha512",
     "C:\\Users\\kriachy\\.nuget\\packages\\librdkafka.redist\\1.5.0\\librdkafka.redist.1.5.0.nupkg.sha512",

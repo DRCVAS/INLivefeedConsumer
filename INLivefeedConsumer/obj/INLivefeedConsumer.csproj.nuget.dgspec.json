@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {}
+    "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {}
   },
   "projects": {
-    "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {
+    "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
+        "projectUniqueName": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
         "projectName": "INLivefeedConsumer",
-        "projectPath": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
+        "projectPath": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\INLivefeedConsumer.csproj",
         "packagesPath": "C:\\Users\\kriachy\\.nuget\\packages\\",
-        "outputPath": "D:\\GitHub\\INLivefeedConsumer\\INLivefeedConsumer\\obj\\",
+        "outputPath": "C:\\Users\\kriachy\\Documents\\Visual Studio 2019\\INLivefeedConsumer\\INLivefeedConsumer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\kriachy\\AppData\\Roaming\\NuGet\\NuGet.Config",
