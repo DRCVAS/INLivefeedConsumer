@@ -34,16 +34,7 @@ namespace INLivefeedConsumer
                 IWebProxy proxy = WebRequest.GetSystemWebProxy();
                 proxy.Credentials = CredentialCache.DefaultCredentials;
                 HttpWReq.Proxy = proxy;
-                var strProtocol = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["Protocol"];
-                if (strProtocol == "Get")
-                {
-                    HttpWReq.Method = WebRequestMethods.Http.Get;
-                }
-                else {
-                    HttpWReq.Method = WebRequestMethods.Http.Post;
-                }
-
-               
+                HttpWReq.Method = WebRequestMethods.Http.Post;
                 HttpWReq.Timeout = 120 * 1000;
 
                 //// Set the content type of the data being posted.
