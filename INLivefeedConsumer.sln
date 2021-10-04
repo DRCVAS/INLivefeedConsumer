@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29418.71
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "INLivefeedConsumer", "INLivefeedConsumer\INLivefeedConsumer.csproj", "{34CB1F19-CF1C-4F78-A223-C5713EAAD6D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34CB1F19-CF1C-4F78-A223-C5713EAAD6D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CB1F19-CF1C-4F78-A223-C5713EAAD6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CB1F19-CF1C-4F78-A223-C5713EAAD6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CB1F19-CF1C-4F78-A223-C5713EAAD6D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D209F124-8986-4945-87C8-905CAED59664}
+	EndGlobalSection
+EndGlobal
