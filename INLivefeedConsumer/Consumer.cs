@@ -30,7 +30,7 @@ namespace INLivefeedConsumer
                 .SetPartitionsAssignedHandler((c, partitions) =>
                 {
                     Console.WriteLine($"Assigned partitions: [{string.Join(", ", partitions)}]");
-                    return partitions.Select(tp => new TopicPartitionOffset(tp, Offset.Stored));
+                    return partitions.Select(tp => new TopicPartitionOffset(tp, Offset.Unset));
                 })
                 .SetPartitionsRevokedHandler((c, partitions) =>
                 {
@@ -47,7 +47,7 @@ namespace INLivefeedConsumer
                         {
                             var URL = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["URL"];
                             var SqlConnection = new ConfigurationBuilder().AddJsonFile("appsettings.json").Build().GetSection("AppSettings")["SqlConnection"];
-
+                         
                             var cr = c.Consume();
                             clsFunction clsFunc = new clsFunction();
                             if (URL != "") {
